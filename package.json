@@ -10,14 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:google-search.googleSearch"
+    "onCommand:google-search.quickSearch"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "google-search.googleSearch",
-        "title": "Google Search"
+        "command": "google-search.quickSearch",
+        "title": "Quick Search"
       }
     ]
   },
