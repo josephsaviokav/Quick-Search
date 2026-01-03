@@ -1,13 +1,14 @@
-# Google Search for VS Code
+# Quick Search for VS Code
 
-Instantly search Google directly from VS Code without leaving your editor. No more Alt+Tab to your browser — just open the command palette, type your query, and go!
+Instantly search Google, Bing, or Brave directly from VS Code without leaving your editor. No more Alt+Tab to your browser — just open the command palette, type your query, and go!
 
 ## Features
 
-- 🔍 **Quick Google Search**: Search Google directly from the VS Code command palette
+- 🔍 **Multiple Search Engines**: Choose between Google, Bing, or Brave search
 - ⚡ **Lightning Fast**: No context switching — stay in your flow
 - 🌐 **Opens in External Browser**: Search results open in your default web browser
 - 🎯 **Simple and Lightweight**: Zero configuration needed, works out of the box
+- 🎨 **Easy Access**: Dedicated commands for each search engine
 
 ## Usage
 
@@ -15,14 +16,18 @@ There are multiple ways to use this extension:
 
 ### Method 1: Command Palette
 1. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS)
-2. Type "Google Search"
+2. Type one of the following commands:
+   - "Google Search" - Search using Google
+   - "Bing Search" - Search using Bing
+   - "Brave Search" - Search using Brave
 3. Enter your search query
 4. Press Enter
 
 ### Method 2: Direct Command
 1. Press `Ctrl+Shift+P` / `Cmd+Shift+P`
-2. Start typing your search immediately
-3. The search results will open in your default browser
+2. Choose your preferred search engine command
+3. Start typing your search query
+4. The search results will open in your default browser
 
 ## Installation
 
@@ -58,6 +63,13 @@ This extension works out of the box with no configuration required. It doesn't a
 No known issues at this time. If you encounter any problems, please [report them on GitHub](https://github.com/josephsaviokav/Google-Search/issues).
 
 ## Release Notes
+
+### 0.0.2
+
+Added multiple search engine support
+- Added Bing Search functionality
+- Added Brave Search functionality
+- All three search engines (Google, Bing, Brave) now available
 
 ### 0.0.1
 
